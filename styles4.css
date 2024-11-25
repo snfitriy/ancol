@@ -1,0 +1,142 @@
+body {
+    background: url(images/BAGROUND.jpg);
+}
+#tampilan{
+    background-color: #7AB2D3;
+    width: 1200px;
+    height: 3550px;
+    margin: auto;
+    padding: 5px;
+}
+#header{
+    background-color: black;
+    height: 200px;
+    width: 1200px;
+    overflow: hidden;
+}
+#header img{
+    object-fit: cover;
+}
+#teks{
+    background-color: #DFF2EB;
+    height: 23px;
+    width: 1194.3px;
+    overflow: hidden;
+    border-style: ridge;
+    border-color: #181C14;
+}
+#card {    
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    font-family:calibri;
+        }
+.card img {
+    width: 450px;
+    height: auto;
+        }
+.card h3 {
+    font-size: 18px;
+    margin: 15px 10px;
+        }
+.card p {
+    color: #555;
+    margin: 10px;
+        }
+.card span {
+    display: block;
+    color: #007bff;
+    margin: 10px 0;
+    font-weight: bold;
+        }
+.button {
+   text-decoration: none;
+   background: #007bff;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 5px;
+   margin: 20px;
+   display: inline-block;
+        }
+.button:hover {
+    background: #0056b3;
+        }
+.contact-bar {
+            background-color: #f9f9f9;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .contact-bar .text {
+            font-size: 16px;
+            color: #333;
+        }
+        .contact-bar .contact-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        .contact-bar .contact-button:hover {
+            background-color: #0056b3;
+        }
+        .contact-bar .social-icons {
+            display: flex;
+            gap: 10px;
+        }
+        .contact-bar .social-icons a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+        .contact-bar .social-icons a:hover {
+            color: #007bff;
+        }
+.header {
+    background: #0078d7;
+    color: white;
+    padding: 20px 0;
+}
+
+.informasi {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #0078d7;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #0078d7;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    padding: 0 10px 20px;
+}
